@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(212, 147, 61);
+}
+
+.audioPlayer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(212, 147, 61);
+    
+}

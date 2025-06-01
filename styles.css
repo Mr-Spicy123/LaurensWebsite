@@ -11,6 +11,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     font-size: 1.5vw;
+    font-weight: bold;
 }
 
 .audioPlayer {
@@ -64,3 +65,67 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+    .title{
+        margin-top: 12vh;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+    .audioPlayer {
+        margin-top: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    
+    .playButton{
+        margin-right: 15vw;
+        background-color: green;
+        border-width: .5vw;
+        border-color: rgba(0, 0, 0, 0.459);
+        color: white;
+        border-radius: 7px;
+        width: 14vw;
+        height: 7vh;
+        font-size: 4vw;
+        font-family: sans-serif;
+    }
+    
+    .pauseButton {
+        background-color: red;
+        border-width: .5vw;
+        border-color: rgba(0, 0, 0, 0.459);
+        color: white;
+        border-radius: 7px;
+        width: 14vw;
+        height: 7vh;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    .sliderContainer {
+        width: 75vw;
+        height: 5vh;
+        background-color: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+        margin: 1vh auto 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #seekSlider {
+        width: 65vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }

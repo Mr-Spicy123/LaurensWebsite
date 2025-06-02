@@ -92,7 +92,7 @@ body {
         border-radius: 7px;
         width: 14vw;
         height: 7vh;
-        font-size: 8vw;
+        font-size: 6vw;
         font-family: sans-serif;
     }
     
@@ -128,4 +128,4 @@ body {
         align-items: center;
     }
 
-  }
+}

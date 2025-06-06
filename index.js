@@ -3,7 +3,7 @@ const pauseBtn = document.getElementById("pauseBtn");
 const seekSlider = document.getElementById("seekSlider");
 
 // Create an audio object
-const audio = new Audio("ambience-byron-bay-farmland-morning-bird-chatter-239928.mp3");
+const audio = new Audio("Moose Hide Campaign.mp3");
 
 audio.addEventListener("loadedmetadata", () => {
     seekSlider.max = Math.floor(audio.duration);
